@@ -22,3 +22,6 @@ data/warehouse/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Local SQLite database
+data/database/*
