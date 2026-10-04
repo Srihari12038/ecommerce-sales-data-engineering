@@ -1,25 +1,24 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Virtual environment
-venv/
 .venv/
-env/
+
+# Environment
+.env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment variables
-.env
-
-# IDE
-.vscode/
-
-# Large/local data
+# Data files
 data/raw/*
 data/processed/*
+data/warehouse/*
 
-# Power BI temporary files
-*.tmp
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/warehouse/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
