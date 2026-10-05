@@ -1,0 +1,4 @@
+problem,model,mae,rmse,smape,accuracy,precision,recall,f1
+delivery_time_regression,median_baseline,4.9624449115821365,6.380478808567353,53.999707566238634,,,,
+delivery_time_regression,mean_baseline,6.432778667999511,7.5768570855040105,63.81474647933608,,,,
+late_delivery_classification,majority_baseline,,,,0.9470874792703151,0.0,0.0,0.0

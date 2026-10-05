@@ -41,3 +41,8 @@ data/ml/sales_features_anomaly_aware.csv
 # ML visualizations
 data/ml/eda/
 data/ml/visualizations/
+
+# Delivery ML intermediate datasets
+data/ml/delivery_prediction_dataset.csv
+data/ml/delivery_features_train.csv
+data/ml/delivery_features_test.csv
