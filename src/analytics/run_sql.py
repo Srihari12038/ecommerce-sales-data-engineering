@@ -16,8 +16,7 @@ DATABASE_FILE = (
 def main():
     if len(sys.argv) < 2:
         print(
-            "Usage: python src/analytics/run_sql.py "
-            "<sql_file>"
+            "Usage: python src/analytics/run_sql.py <sql_file>"
         )
         return
 
@@ -29,14 +28,21 @@ def main():
 
     sql = sql_file.read_text(
         encoding="utf-8"
-    )
+    ).strip()
 
-    connection = sqlite3.connect(
-        DATABASE_FILE
-    )
+    if not sql:
+        print(f"SQL file is empty: {sql_file}")
+        return
+
+    connection = sqlite3.connect(DATABASE_FILE)
 
     try:
         cursor = connection.execute(sql)
+
+        if cursor.description is None:
+            print("SQL executed successfully.")
+            print("This query did not return a result set.")
+            return
 
         columns = [
             description[0]

@@ -1,0 +1,3 @@
+segment,customers,average_recency_days,median_recency_days,average_monetary_value,median_monetary_value,total_sales,average_items,average_freight,average_unique_products,average_unique_sellers,average_review_score,average_payment_value,average_installments,customer_percentage,sales_percentage,business_action
+High Value Customers,6537,246.19,228.0,528.62,299.82,3455611.77,2.24,62.07,1.56,1.21,3.47,581.36,5.14,6.63,25.42,"Prioritize retention, premium offers, cross-selling and personalized campaigns."
+Standard Customers,92129,246.75,228.0,110.02,79.9,10136031.93,1.06,20.04,1.0,1.0,4.12,127.9,2.78,93.37,74.58,"Use targeted promotions, product recommendations and incentives to increase order value."

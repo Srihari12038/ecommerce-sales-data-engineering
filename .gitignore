@@ -25,3 +25,19 @@ Thumbs.db
 
 # Local SQLite database
 data/database/*
+
+# Machine Learning generated artifacts
+
+# Trained ML models
+src/ml/models/*.pkl
+
+# Large ML intermediate datasets
+data/ml/customer_behavior_features.csv
+data/ml/customer_clustering_features.csv
+data/ml/customer_rfm.csv
+data/ml/sales_features.csv
+data/ml/sales_features_anomaly_aware.csv
+
+# ML visualizations
+data/ml/eda/
+data/ml/visualizations/

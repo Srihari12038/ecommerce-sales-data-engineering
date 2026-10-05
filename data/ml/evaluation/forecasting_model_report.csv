@@ -1,0 +1,4 @@
+model,validation_method,target,average_mae,average_rmse,average_smape,selection_status
+Gradient Boosting,Walk-Forward Validation,Monthly Total Sales,173903.4383853437,173903.4383853437,30.45000077384392,Not Selected
+Naive Baseline,Walk-Forward Validation,Monthly Total Sales,169078.38333334064,169078.38333334064,30.542876645803958,Selected
+Random Forest,Walk-Forward Validation,Monthly Total Sales,187693.1905149979,187693.1905149979,31.471732476986844,Not Selected
