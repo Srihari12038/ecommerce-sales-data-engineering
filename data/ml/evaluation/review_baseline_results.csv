@@ -1,0 +1,2 @@
+problem,model,majority_class,accuracy,balanced_accuracy,macro_f1,weighted_f1
+review_score_classification,majority_baseline,5,0.6380208333333334,0.2,0.15580286168521462,0.4970273582405935

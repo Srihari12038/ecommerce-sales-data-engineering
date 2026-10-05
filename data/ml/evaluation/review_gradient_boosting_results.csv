@@ -1,0 +1,2 @@
+problem,model,accuracy,balanced_accuracy,macro_f1,weighted_f1,score_mae,quadratic_kappa
+review_score_classification,gradient_boosting,0.38209763071895425,0.23457641814574132,0.21590283616830125,0.417001163694022,1.2339154411764706,0.07897640339532663

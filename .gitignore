@@ -46,3 +46,7 @@ data/ml/visualizations/
 data/ml/delivery_prediction_dataset.csv
 data/ml/delivery_features_train.csv
 data/ml/delivery_features_test.csv
+# Review ML intermediate datasets
+data/ml/review_prediction_dataset.csv
+data/ml/review_features_train.csv
+data/ml/review_features_test.csv

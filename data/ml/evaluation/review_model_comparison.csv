@@ -1,0 +1,5 @@
+problem,model,majority_class,accuracy,balanced_accuracy,macro_f1,weighted_f1,model_family,score_mae,quadratic_kappa,score_rmse,selection_status
+review_score_classification,majority_baseline,5.0,0.6380208333333334,0.2,0.1558028616852146,0.4970273582405935,baseline,,,,Baseline Reference
+review_score_classification,random_forest,,0.4195772058823529,0.2356614918812679,0.2210442819415601,0.4426661571499038,classification,1.2491830065359475,0.087703447543969,,Best Exact Classifier
+review_score_classification,gradient_boosting,,0.3820976307189542,0.2345764181457413,0.2159028361683012,0.417001163694022,classification,1.2339154411764706,0.0789764033953266,,Not Selected
+review_score_ordinal_prediction,gradient_boosting_regression,,0.1942401960784313,0.2050556373656819,0.0795545969705185,0.0818286713436801,ordinal_regression,0.9926981209150328,0.032625467742962,1.231957201266194,Best Ordinal Model

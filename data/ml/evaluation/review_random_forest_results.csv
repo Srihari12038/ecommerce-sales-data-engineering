@@ -1,0 +1,2 @@
+problem,model,accuracy,balanced_accuracy,macro_f1,weighted_f1,score_mae,quadratic_kappa
+review_score_classification,random_forest,0.4195772058823529,0.23566149188126798,0.22104428194156017,0.4426661571499038,1.2491830065359477,0.08770344754396908
