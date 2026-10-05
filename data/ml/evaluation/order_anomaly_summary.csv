@@ -1,0 +1,2 @@
+model,n_estimators,contamination,total_orders,normal_orders,anomalous_orders,anomaly_rate,mean_anomaly_score,median_anomaly_score,max_anomaly_score
+IsolationForest,300,0.01,98666,97679,987,0.010003445969229521,-0.19832924743483055,-0.21379721041866542,0.11317463951784013

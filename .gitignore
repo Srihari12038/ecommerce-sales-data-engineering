@@ -50,3 +50,8 @@ data/ml/delivery_features_test.csv
 data/ml/review_prediction_dataset.csv
 data/ml/review_features_train.csv
 data/ml/review_features_test.csv
+
+# Order anomaly intermediate datasets
+data/ml/order_anomaly_dataset.csv
+data/ml/order_anomaly_features.csv
+data/ml/order_anomaly_feature_statistics.csv
